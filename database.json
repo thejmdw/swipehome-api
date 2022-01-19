@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "email": "user@swipehome.com",
+      "name": "SwipeHome  User",
+      "avatarURL": "https://i.pravatar.cc/150?u=SwipeHome User",
+      "userTypeId": 1,
+      "firstTimeUser": true,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "name": "SwipeHome Agent",
+      "email": "agent@swipehome.com",
+      "avatarURL": "https://i.pravatar.cc/150?u=SwipeHomeAgent",
+      "userTypeId": 3
+    }
+  ],
+  "userTypes": [
+    {
+      "id": 1,
+      "type": "Renter"
+    },
+    {
+      "id": 2,
+      "type": "Buyer"
+    },
+    {
+      "id": 3,
+      "type": "Agent"
+    }
+  ],
+  "searches": [
+    {
+      "userId": 12,
+      "city": "chattanooga",
+      "state_code": "TN",
+      "postal_code": "37409",
+      "userTypeId": 1,
+      "id": 15
+    },
+    {
+      "userId": 12,
+      "city": "chattanooga",
+      "state_code": "TN",
+      "postal_code": "37405",
+      "userTypeId": 1,
+      "id": 16
+    }
+  ],
+  "faves": [
+    {
+      "userId": 12,
+      "houseId": 6,
+      "address": "4500 Tennessee Ave",
+      "city": "chattanooga",
+      "state_code": "TN",
+      "postal_code": "37409",
+      "beds": 3,
+      "baths": 2,
+      "price": 2000,
+      "photo": "https://res.cloudinary.com/thejmdw/image/upload/v1641420770/w9frj6vaionuilio3mnb.jpg",
+      "timeStamp": 1641422786959,
+      "id": 17
+    },
+    {
+      "userId": 12,
+      "property_id": "R7910974713",
+      "address": "1302 Worthington St",
+      "city": "Chattanooga",
+      "state_code": "TN",
+      "postal_code": "37405",
+      "beds": 3,
+      "baths": 2,
+      "price": 1850,
+      "photo": "https://ar.rdcpix.com/c434f49145a484a3e99a5423939d8a17l-f3134513715s.jpg",
+      "timeStamp": 1641525875941,
+      "id": 18
+    },
+    {
+      "userId": 12,
+      "property_id": "R8853739898",
+      "address": "709 Old Dallas Rd",
+      "city": "Chattanooga",
+      "state_code": "TN",
+      "postal_code": "37405",
+      "beds": 3,
+      "baths": 2,
+      "price": 1699,
+      "photo": "https://ar.rdcpix.com/02089b0cf0649918a1ce95392fe20793l-f2547316145s.jpg",
+      "timeStamp": 1641525880691,
+      "id": 19
+    },
+    {
+      "userId": 12,
+      "property_id": "R7478646553",
+      "address": "1024 Garnett Ave",
+      "city": "Chattanooga",
+      "state_code": "TN",
+      "postal_code": "37405",
+      "beds": 3,
+      "baths": 1,
+      "price": 1800,
+      "photo": "https://ar.rdcpix.com/6cee27676a6482666e269a6361e3d02dl-f2081940911s.jpg",
+      "timeStamp": 1641525886357,
+      "id": 20
+    }
+  ],
+  "messages": [
+    {
+      "userId": 12,
+      "recipientId": 13,
+      "text": "I'm interested in viewing this house. When is it available for showing?",
+      "timestamp": 1641422528092,
+      "unread": false,
+      "id": 3,
+      "user": {
+        "email": "user@swipehome.com",
+        "name": "SwipeHome  User",
+        "avatarURL": "https://i.pravatar.cc/150?u=SwipeHome User",
+        "userTypeId": 1,
+        "firstTimeUser": true,
+        "id": 12
+      }
+    }
+  ],
+  "houses": [
+    {
+      "address": {
+        "line": "4500 Tennessee Ave",
+        "city": "chattanooga",
+        "state_code": "TN",
+        "postal_code": "37409"
+      },
+      "photos": [
+        {
+          "href": "https://res.cloudinary.com/thejmdw/image/upload/v1641420770/w9frj6vaionuilio3mnb.jpg"
+        }
+      ],
+      "price": 2000,
+      "beds": 3,
+      "baths_full": 2,
+      "userTypeId": 1,
+      "userId": 13,
+      "id": 6
+    }
+  ]
+}
