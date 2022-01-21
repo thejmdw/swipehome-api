@@ -5,7 +5,6 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 const cors = require('cors');
 
-
 server.use(
     cors({
         origin: true,
